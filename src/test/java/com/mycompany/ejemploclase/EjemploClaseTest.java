@@ -23,7 +23,7 @@ public class EjemploClaseTest {
         int b = 2;
         int c = 3;
         EjemploClase instance = new EjemploClase();
-        int expResult = 3;
+        int expResult = 1;
         int result = instance.numero_mayor(a, b, c);
         assertEquals(expResult, result);
     }
